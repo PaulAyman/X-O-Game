@@ -1,1 +1,1 @@
-.\startup.o: drivers\startup.s
+.\startup.o: startup.s
