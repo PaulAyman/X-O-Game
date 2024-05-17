@@ -747,14 +747,14 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       986         72          0          0        504       7361   nokia5110.o
-        64         14          0          4          0        196   random.o
-       432         72       4411         32          0       4233   spaceinvaders.o
-       692        632          0          0       1024        900   startup.o
-      1120        244        360         52         56      15564   texas.o
+       986         72          0          0        504       7101   nokia5110.o
+        64         14          0          4          0        172   random.o
+       432         72       4411         32          0       4077   spaceinvaders.o
+       692        632          0          0       1024        844   startup.o
+      1120        244        360         52         56      15276   texas.o
 
     ----------------------------------------------------------------------
-      3296       1034       4804         88       1584      28254   Object Totals
+      3296       1034       4804         88       1584      27470   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          2          0          1          0          0          0   (incl. Padding)
 
@@ -803,8 +803,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      3568       1050       4804         88       1680      27738   Grand Totals
-      3568       1050       4804         88       1680      27738   ELF Image Totals
+      3568       1050       4804         88       1680      26954   Grand Totals
+      3568       1050       4804         88       1680      26954   ELF Image Totals
       3568       1050       4804         88          0          0   ROM Totals
 
 ==============================================================================
