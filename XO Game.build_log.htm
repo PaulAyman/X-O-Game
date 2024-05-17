@@ -1,0 +1,112 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\ARM program\AAA -Projects-\Test-Project-main\X-O Game Project\XO Game.uvproj
+Project File Date:  05/20/2023
+
+<h2>Output:</h2>
+Rebuild target 'XO Game'
+compiling XO Game.c...
+./drivers/GPIO/../../common/Types.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+./drivers/GPIO/GPIO_interface.h(72): warning:  #1295-D: Deprecated declaration PortF_Init - give arg types
+  void PortF_Init(); 
+./drivers/GPIO/GPIO_interface.h(73): warning:  #1295-D: Deprecated declaration PortB_Init - give arg types
+  void PortB_Init();
+./drivers/GPIO/GPIO_interface.h(76): warning:  #1-D: last line of file ends without a newline
+  #endif
+XO Game.c(525): warning:  #550-D: variable "i" was set but never used
+        int Winning_cell_1 = 0, Winning_cell_2 = 0, Winning_cell_3 = 0, i; 
+XO Game.c: 5 warnings, 0 errors
+compiling TExaS.c...
+assembling startup.s...
+compiling main.c...
+./drivers/GPIO/../../common/Types.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+./drivers/GPIO/GPIO_interface.h(72): warning:  #1295-D: Deprecated declaration PortF_Init - give arg types
+  void PortF_Init(); 
+./drivers/GPIO/GPIO_interface.h(73): warning:  #1295-D: Deprecated declaration PortB_Init - give arg types
+  void PortB_Init();
+./drivers/GPIO/GPIO_interface.h(76): warning:  #1-D: last line of file ends without a newline
+  #endif
+./drivers/ADC/ADC.h(1): warning:  #1-D: last line of file ends without a newline
+  void ADC_Init(void);
+main.c(12): warning:  #1295-D: Deprecated declaration vidButtonsInit - give arg types
+  void vidButtonsInit();
+main.c(13): warning:  #1295-D: Deprecated declaration CheckMode - give arg types
+  int CheckMode();
+main.c(36): warning:  #223-D: function "animation" declared implicitly
+        animation();
+main.c: 8 warnings, 0 errors
+compiling GPIO_program.c...
+drivers\GPIO\../../common/Types.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+drivers\GPIO\../../common/BIT_MATH.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif 
+drivers\GPIO\GPIO_interface.h(72): warning:  #1295-D: Deprecated declaration PortF_Init - give arg types
+  void PortF_Init(); 
+drivers\GPIO\GPIO_interface.h(73): warning:  #1295-D: Deprecated declaration PortB_Init - give arg types
+  void PortB_Init();
+drivers\GPIO\GPIO_interface.h(76): warning:  #1-D: last line of file ends without a newline
+  #endif
+drivers\GPIO\../../common/tm4c123gh6pm.h(2059): warning:  #47-D: incompatible redefinition of macro "SYSCTL_RCGC2_R" (declared at line 14 of "drivers\GPIO\GPIO_private.h")
+  #define SYSCTL_RCGC2_R          (*((volatile unsigned long *)0x400FE108))
+drivers\GPIO\GPIO_program.c(149): warning:  #188-D: enumerated type mixed with another type
+                        enuPinReturnedValue = GET_BIT(GPIOA_DATA_R,pinNum);
+drivers\GPIO\GPIO_program.c(152): warning:  #188-D: enumerated type mixed with another type
+                        enuPinReturnedValue = GET_BIT(GPIOB_DATA_R,pinNum);
+drivers\GPIO\GPIO_program.c(155): warning:  #188-D: enumerated type mixed with another type
+                        enuPinReturnedValue = GET_BIT(GPIOC_DATA_R,pinNum);
+drivers\GPIO\GPIO_program.c(158): warning:  #188-D: enumerated type mixed with another type
+                        enuPinReturnedValue = GET_BIT(GPIOD_DATA_R,pinNum);
+drivers\GPIO\GPIO_program.c(161): warning:  #188-D: enumerated type mixed with another type
+                        enuPinReturnedValue = GET_BIT(GPIOE_DATA_R,pinNum);
+drivers\GPIO\GPIO_program.c(164): warning:  #188-D: enumerated type mixed with another type
+                        enuPinReturnedValue = GET_BIT(GPIOF_DATA_R,pinNum);
+drivers\GPIO\GPIO_program.c: 12 warnings, 0 errors
+compiling NVIC_program.c...
+drivers\NVIC\../../common/Types.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+drivers\NVIC\../../common/BIT_MATH.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif 
+drivers\NVIC\NVIC_program.c: 2 warnings, 0 errors
+compiling Timer.c...
+compiling UART.c...
+compiling Nokia5110.c...
+compiling LED.c...
+drivers\LED\../GPIO/../../common/Types.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+drivers\LED\../GPIO/GPIO_interface.h(72): warning:  #1295-D: Deprecated declaration PortF_Init - give arg types
+  void PortF_Init(); 
+drivers\LED\../GPIO/GPIO_interface.h(73): warning:  #1295-D: Deprecated declaration PortB_Init - give arg types
+  void PortB_Init();
+drivers\LED\../GPIO/GPIO_interface.h(76): warning:  #1-D: last line of file ends without a newline
+  #endif
+drivers\LED\LED.c: 4 warnings, 0 errors
+compiling ADC.c...
+drivers\ADC\ADC.h(1): warning:  #1-D: last line of file ends without a newline
+  void ADC_Init(void);
+drivers\ADC\ADC.c: 1 warning, 0 errors
+linking...
+Program Size: Code=12472 RO-data=7400 RW-data=108 ZI-data=1692  
+".\XO Game.axf" - 0 Error(s), 32 Warning(s).
+Load "D:\\ARM program\\AAA -Projects-\\Test-Project-main\\X-O Game Project\\XO Game.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\ARM program\\AAA -Projects-\\Test-Project-main\\X-O Game Project\\XO Game.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\ARM program\\AAA -Projects-\\Test-Project-main\\X-O Game Project\\XO Game.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>
