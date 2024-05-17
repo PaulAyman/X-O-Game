@@ -1,4 +1,4 @@
-
+void animation(void);
 void Intro(void);
 void GameReset(void);
 void StartGame(void);
