@@ -1,2 +1,2 @@
-.\texas.o: drivers\TExaS.c
-.\texas.o: drivers\..\\./common/TExaS.h
+.\texas.o: TExaS.c
+.\texas.o: TExaS.h

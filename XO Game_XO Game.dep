@@ -1,57 +1,0 @@
-Dependencies for Project 'XO Game', Target 'XO Game': (DO NOT MODIFY !)
-F (.\XO Game.c)(0x6645F69A)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I.\drivers\ADC -I.\drivers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o ".\xo game.o" --omf_browse ".\xo game.crf" --depend ".\xo game.d")
-I (./common/tm4c123gh6pm.h)(0x64687386)
-I (./drivers/NOKIA5110/Nokia5110.h)(0x64687386)
-I (./common/TExaS.h)(0x64687386)
-I (./common/GameArt.h)(0x6645FCD5)
-I (./common/XO Game.h)(0x64687386)
-I (./drivers/TIMER/Timer.h)(0x64687386)
-I (./drivers/LED/LED.h)(0x64687386)
-I (./drivers/GPIO/GPIO_interface.h)(0x64687386)
-I (./drivers/GPIO/../../common/Types.h)(0x64687386)
-F (.\drivers\TExaS.c)(0x64687386)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I.\drivers\ADC -I.\drivers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
-I (drivers\..\\./common/TExaS.h)(0x64687386)
-F (.\drivers\startup.s)(0x64687386)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\main.c)(0x6646064E)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I.\drivers\ADC -I.\drivers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (./drivers/NOKIA5110/Nokia5110.h)(0x64687386)
-I (./common/TExaS.h)(0x64687386)
-I (./common/XO Game.h)(0x64687386)
-I (./drivers/GPIO/GPIO_interface.h)(0x64687386)
-I (./drivers/GPIO/../../common/Types.h)(0x64687386)
-I (./drivers/NVIC/NVIC_interface.h)(0x64687386)
-I (./common/tm4c123gh6pm.h)(0x64687386)
-I (./drivers/TIMER/Timer.h)(0x64687386)
-I (./drivers/UART/UART.h)(0x64687386)
-I (./drivers/ADC/ADC.h)(0x664604CF)
-F (.\drivers\GPIO\GPIO_program.c)(0x64687386)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I.\drivers\ADC -I.\drivers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\gpio_program.o --omf_browse .\gpio_program.crf --depend .\gpio_program.d)
-I (drivers\GPIO\../../common/Types.h)(0x64687386)
-I (drivers\GPIO\../../common/BIT_MATH.h)(0x64687386)
-I (drivers\GPIO\GPIO_config.h)(0x64687386)
-I (drivers\GPIO\GPIO_private.h)(0x64687386)
-I (drivers\GPIO\GPIO_interface.h)(0x64687386)
-I (drivers\GPIO\../../common/tm4c123gh6pm.h)(0x64687386)
-F (.\drivers\NVIC\NVIC_program.c)(0x64687386)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I.\drivers\ADC -I.\drivers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nvic_program.o --omf_browse .\nvic_program.crf --depend .\nvic_program.d)
-I (drivers\NVIC\../../common/Types.h)(0x64687386)
-I (drivers\NVIC\../../common/BIT_MATH.h)(0x64687386)
-I (drivers\NVIC\NVIC_interface.h)(0x64687386)
-I (drivers\NVIC\NVIC_private.h)(0x64687386)
-I (drivers\NVIC\NVIC_config.h)(0x64687386)
-F (.\drivers\TIMER\Timer.c)(0x64687386)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I.\drivers\ADC -I.\drivers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
-I (drivers\TIMER\../../common/tm4c123gh6pm.h)(0x64687386)
-I (drivers\TIMER\Timer.h)(0x64687386)
-F (.\drivers\UART\UART.c)(0x64687386)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I.\drivers\ADC -I.\drivers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
-I (drivers\UART\../../common/tm4c123gh6pm.h)(0x64687386)
-I (drivers\UART\UART.h)(0x64687386)
-F (.\drivers\UART\UART.h)(0x64687386)()
-F (.\drivers\NOKIA5110\Nokia5110.c)(0x64687386)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I.\drivers\ADC -I.\drivers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
-I (drivers\NOKIA5110\Nokia5110.h)(0x64687386)
-F (.\drivers\LED\LED.c)(0x64687386)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I.\drivers\ADC -I.\drivers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\led.o --omf_browse .\led.crf --depend .\led.d)
-I (drivers\LED\../../common/tm4c123gh6pm.h)(0x64687386)
-I (drivers\LED\LED.h)(0x64687386)
-I (drivers\LED\../TIMER/Timer.h)(0x64687386)
-I (drivers\LED\../GPIO/GPIO_interface.h)(0x64687386)
-I (drivers\LED\../GPIO/../../common/Types.h)(0x64687386)
-F (.\drivers\ADC\ADC.c)(0x664605A0)(--c99 -c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. -I.\drivers\ADC -I.\drivers-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
-I (drivers\ADC\../../common/tm4c123gh6pm.h)(0x64687386)
-I (drivers\ADC\ADC.h)(0x664604CF)
-F (.\drivers\ADC\ADC.h)(0x664604CF)()
